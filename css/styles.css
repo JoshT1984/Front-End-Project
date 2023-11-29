@@ -1,6 +1,11 @@
 body {
   background: linear-gradient(to right bottom, black 15%, gray);
+  font-family: 'Lora', serif;
+  /* font-family: 'Sirin Stencil', sans-serif; */
 }
+
+/* font-family: 'Lora', serif;
+/* font-family: 'Sirin Stencil', sans-serif; */ 
 /* NAV BAR */
 nav {
   display: flex;
@@ -15,7 +20,8 @@ nav {
   background: linear-gradient(to right bottom, white, rgb(79, 79, 75));
   color: black;
   list-style: none;
-  font-size: 1.15rem;
+  font-size: 1.14rem;
+  font-weight: bolder;
   padding-top: 5px;
   padding-left: 3px;
   padding-right: 3px;
@@ -38,11 +44,11 @@ nav {
 .skate-icon {
   /* margin-left : 3rem; */
   position: relative;
-  top: 0.8rem;
+  top: 0.4rem;
   left: 7rem;
-  width: 3rem;
-  height: 3rem;
-  /* pointer-events: none; */
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-left:5px;
 }
 /* ///////////////////END OF NAV BAR ////////////////////////*/
 
