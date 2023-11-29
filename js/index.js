@@ -1,3 +1,28 @@
+let isSpinning = false;
+let rotateAngle = 0;
+render();
+
+function render() {
+  rotateOnClick();
+}
+
+function rotateOnClick() {
+  $(".skate-icon").click(function () {
+    isSpinning = !isSpinning;
+    aJaxCall();
+  });
+}
+function aJaxCall() {
+  let $board = $(".skate-icon");
+  if (isSpinning) {
+    rotateAngle += 45;
+    $board.css({ transform: "rotate(" + rotateAngle + "deg" });
+    setTimeout(() => {
+      aJaxCall();
+    }, 300);
+  }
+}
+
 // $.get("https://fakestoreapi.com/products", (data) => {
 //   console.log(data);
 // });
@@ -5,12 +30,6 @@
 // $test.on("click", function () {
 //   console.log("IT WORKS");
 // });
-// animation();
-render();
-
-function render() {
-  // changeDocs();
-}
 
 // function changeDocs() {
 //   $(document).ready(function () {
@@ -25,22 +44,3 @@ function render() {
 //       $(this).load("test.html");
 //     });
 //   });
-// }
-
-var rotateLine = 0;
-
-  let $board = $(".skate-icon").click(function () {
-    rotateLine += 45;
-    $board.css({ transform: "rotate(" + rotateLine + "deg" });
-  });
-
-// function animation() {
-//
-//   const frameHeight = 102;
-//   const frames = 15;
-//   let frame = 0;
-//   setInterval(function () {
-//     const frameOffset = (++frame % frames) * -frameHeight;
-//     $div.css("background-position", "0px " + frameOffset + "px");
-//   }, 100);
-// }
