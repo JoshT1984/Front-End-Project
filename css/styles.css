@@ -1,0 +1,24 @@
+body {
+  background-color: royalblue;
+}
+
+.nav-items {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.5em;
+  border: 3px solid black;
+  height: 1.25em;
+}
+
+.span-nav-container {
+  justify-content: end;
+  margin-right: -25px;
+}
+
+/* .nav-div-container {
+display: inline-flex;
+float: left;
+} */
