@@ -6,6 +6,17 @@ function render() {
   rotateOnClick();
 }
 
+// function changeDocs() {
+//   $(document).ready(function () {
+//     let $shoes = $(".nav-shoes");
+
+//     $shoes.on("click", function () {
+//       console.log("WHAT UP BITCHES");
+//       $(this).load("shoes.html");
+//     });
+//   });
+// }
+
 function rotateOnClick() {
   $(".skate-icon").click(function () {
     isSpinning = !isSpinning;
@@ -19,9 +30,11 @@ function aJaxCall() {
     $board.css({ transform: "rotate(" + rotateAngle + "deg" });
     setTimeout(() => {
       aJaxCall();
-    }, 300);
+    }, 200);
   }
 }
+
+
 
 // $.get("https://fakestoreapi.com/products", (data) => {
 //   console.log(data);
@@ -30,17 +43,3 @@ function aJaxCall() {
 // $test.on("click", function () {
 //   console.log("IT WORKS");
 // });
-
-// function changeDocs() {
-//   $(document).ready(function () {
-//     let $test = $(".main-image");
-//     // Adding click event on id div-1
-//     // if it clicked then anonymous
-//     // function will be called
-//     $test.on("click", function () {
-//       // Load the external html
-//       // here this refers to
-//       // current selector
-//       $(this).load("test.html");
-//     });
-//   });

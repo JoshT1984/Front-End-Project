@@ -1,15 +1,17 @@
 body {
   background: linear-gradient(
-    to right bottom,
-    rgb(21, 21, 21),
-    rgb(88, 87, 87)
-  );
+      to right bottom,
+      rgb(6, 6, 6) 30%,
+      rgb(88, 87, 87)
+    ),
+    white 5%;
   height: 100vh;
   font-family: "Lora", serif;
+  /* font-family: 'Sirin Stencil', sans-serif; */
 }
 
 /* font-family: 'Lora', serif;
-/* font-family: 'Sirin Stencil', sans-serif; */
+  /* font-family: 'Sirin Stencil', sans-serif; */
 /* NAV BAR */
 #container {
   position: sticky;
@@ -17,23 +19,18 @@ body {
   background-color: #191919;
 }
 
-header{
-  margin-top:-8px;
-}
-
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
   margin-left: 5px;
-  height: 2.5rem;
-  position: fixed;
-  width: 100%;
-  background-color: black;
+  margin-right: 5px;
+  height: 2.7rem;
+  background-color: rgb(8, 7, 7);
 }
 
 .nav-items a {
-  background: linear-gradient(to right bottom, white, rgb(79, 79, 75));
+  background: linear-gradient(to right bottom, rgb(235, 235, 235), rgb(43, 43, 38));
   color: black;
   list-style: none;
   font-size: 1.14rem;
@@ -45,7 +42,6 @@ nav {
   border: 3px solid rgb(73, 72, 72);
   height: 1.5rem;
   text-decoration: none;
-  position: relative;
 }
 
 .nav-items a:hover {
@@ -60,46 +56,11 @@ nav {
 
 .skate-icon {
   /* margin-left : 3rem; */
-  top: 3px;
   position: relative;
+  top: 0.4rem;
   left: 7rem;
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 3.2rem;
+  height: 3.2rem;
   margin-left: 5px;
-  /* pointer-events: none; */
-}
-
-.search-box {
-  margin-right: 20px;
 }
 /* ///////////////////END OF NAV BAR ////////////////////////*/
-
-/* MAIN IMAGE */
-.main-img {
-  pointer-events: none;
-}
-
-/* SECONDARY IMAGES */
-
-.secondary-imgs {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.secondary-imgs img {
-  width: 96%;
-  height: 35rem;
-  padding: 10px;
-}
-
-.row-1 {
-  flex-basis: 33.33333%;
-}
-
-.row-2 {
-  flex-basis: 33.33333%;
-}
-
-.row-3 {
-  flex-basis: 33.33333%;
-}
