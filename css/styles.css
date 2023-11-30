@@ -11,11 +11,6 @@ body {
 /* font-family: 'Lora', serif;
 /* font-family: 'Sirin Stencil', sans-serif; */
 /* NAV BAR */
-#container {
-  position: sticky;
-  top: 0;
-  background-color: #191919;
-}
 
 header{
   margin-top:-8px;
@@ -25,7 +20,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 5px;
+  margin-left: 12px;
   height: 2.5rem;
   position: fixed;
   width: 100%;

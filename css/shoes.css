@@ -1,36 +1,39 @@
 body {
   background: linear-gradient(
-      to right bottom,
-      rgb(6, 6, 6) 30%,
-      rgb(88, 87, 87)
-    ),
-    white 5%;
+    to right bottom,
+    rgb(21, 21, 21),
+    rgb(88, 87, 87)
+  );
   height: 100vh;
   font-family: "Lora", serif;
-  /* font-family: 'Sirin Stencil', sans-serif; */
 }
 
 /* font-family: 'Lora', serif;
   /* font-family: 'Sirin Stencil', sans-serif; */
 /* NAV BAR */
-#container {
-  position: sticky;
-  top: 0;
-  background-color: #191919;
+
+header {
+  margin-top: -17px;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  height: 2.5rem;
   margin-left: 5px;
   margin-right: 5px;
-  height: 2.7rem;
+  position: fixed;
+  width: 100%;
   background-color: rgb(8, 7, 7);
 }
 
 .nav-items a {
-  background: linear-gradient(to right bottom, rgb(235, 235, 235), rgb(43, 43, 38));
+  background: linear-gradient(
+    to right bottom,
+    rgb(235, 235, 235),
+    rgb(43, 43, 38)
+  );
   color: black;
   list-style: none;
   font-size: 1.14rem;
@@ -65,12 +68,50 @@ nav {
 }
 /* ///////////////////END OF NAV BAR ////////////////////////*/
 
+/*//////////////////// START OF SHOE SECTION////////////////// */
+
 .shoe-main {
-  display:flex;
-  justify-content: center;
-  margin-top: 20rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
 
-.shoe-main img{
-  width:20rem;
+.shoe-main-pic img {
+  width: 30rem;
+  height: 15rem;
+  margin-left: 3rem;
+  margin-top: 4rem;
+  margin-bottom:4rem;
+}
+
+.shoe-title {
+  position: relative;
+  right: 5rem;
+  top: 10rem;
+  width: 30rem;
+  height: 10rem;
+}
+
+.shoe-sales {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shoe-sales img {
+  width: 90%;
+  height: 30rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+}
+
+.row-1 {
+  flex-basis: 33.33333%;
+}
+
+.row-2 {
+  flex-basis: 33.33333%;
+}
+
+.row-3 {
+  flex-basis: 33.33333%;
 }
