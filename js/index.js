@@ -6,17 +6,6 @@ function render() {
   rotateOnClick();
 }
 
-// function changeDocs() {
-//   $(document).ready(function () {
-//     let $shoes = $(".nav-shoes");
-
-//     $shoes.on("click", function () {
-//       console.log("WHAT UP BITCHES");
-//       $(this).load("shoes.html");
-//     });
-//   });
-// }
-
 function rotateOnClick() {
   $(".skate-icon").click(function () {
     isSpinning = !isSpinning;

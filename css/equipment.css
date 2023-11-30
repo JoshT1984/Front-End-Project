@@ -7,16 +7,15 @@ body {
     white 5%;
   height: 100vh;
   font-family: "Lora", serif;
-  /* font-family: 'Sirin Stencil', sans-serif; */
 }
 
-/* font-family: 'Lora', serif;
-  /* font-family: 'Sirin Stencil', sans-serif; */
+figcaption {
+  font-family: 'Sirin Stencil', sans-serif;
+}
+
 /* NAV BAR */
-#container {
-  position: sticky;
-  top: 0;
-  background-color: #191919;
+header {
+  margin-top: -17px;
 }
 
 nav {
@@ -26,11 +25,17 @@ nav {
   margin-left: 5px;
   margin-right: 5px;
   height: 2.7rem;
+  position: fixed;
+  width: 100%;
   background-color: rgb(8, 7, 7);
 }
 
 .nav-items a {
-  background: linear-gradient(to right bottom, rgb(235, 235, 235), rgb(43, 43, 38));
+  background: linear-gradient(
+    to right bottom,
+    rgb(235, 235, 235),
+    rgb(43, 43, 38)
+  );
   color: black;
   list-style: none;
   font-size: 1.14rem;
@@ -66,11 +71,217 @@ nav {
 /* ///////////////////END OF NAV BAR ////////////////////////*/
 
 .equipment-main {
-  display:flex;
-  justify-content: center;
-  margin-top: 20rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
 
-.equipment-main img{
-  width:20rem;
+.equipment-main-pic .equipment-title {
+  width: 25rem;
+  height: 8rem;
+  margin-left: 6rem;
+  margin-top: 5rem;
 }
+
+.equipment-main .equipment-img {
+  width: 28rem;
+  height: 18rem;
+  margin-right: 7rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+/*////////////////// SECTION 1 ///////////////////*/
+
+.equipment-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.equipment-1 img {
+  width: 70%;
+  height: 45rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+
+.equipment-1 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-1 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-1 .row-3 {
+  flex-basis: 33.33333%;
+}
+/*////////////////// SECTION 2 ///////////////////*/
+
+.equipment-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.equipment-2 img {
+  width: 70%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+
+.equipment-2 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-2 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-2 .row-3 {
+  flex-basis: 33.33333%;
+}
+/* ////////////////// SECTION 3 ///////////////////*/
+
+.equipment-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.equipment-3 img {
+  width: 70%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+.equipment-3 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-3 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-3 .row-3 {
+  flex-basis: 33.33333%;
+}
+/* ////////////////// SECTION 4 /////////////////// */
+
+.equipment-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.equipment-4 img {
+  width: 70%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+
+.equipment-4 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-4 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-4 .row-3 {
+  flex-basis: 33.33333%;
+}
+/* ////////////////// SECTION 5 /////////////////// */
+
+.equipment-5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.equipment-5 img {
+  width: 70%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+
+.equipment-5 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-5 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-5 .row-3 {
+  flex-basis: 33.33333%;
+}
+/* ////////////////// SECTION 6 /////////////////// */
+
+.equipment-6 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.equipment-6 img {
+  width: 70%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+
+.equipment-6 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-6 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-6 .row-3 {
+  flex-basis: 33.33333%;
+}
+/* /* ////////////////// SECTION 7 /////////////////* */
+
+.equipment-7 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.equipment-7 img {
+  width: 70%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+.equipment-7 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-7 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.equipment-7 .row-3 {
+  flex-basis: 33.33333%;
+}
+

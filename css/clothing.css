@@ -1,36 +1,42 @@
 body {
   background: linear-gradient(
-      to right bottom,
-      rgb(6, 6, 6) 30%,
-      rgb(88, 87, 87)
-    ),
-    white 5%;
+    to right bottom,
+    rgb(21, 21, 21),
+    rgb(88, 87, 87)
+  );
   height: 100vh;
   font-family: "Lora", serif;
-  /* font-family: 'Sirin Stencil', sans-serif; */
 }
 
-/* font-family: 'Lora', serif;
-  /* font-family: 'Sirin Stencil', sans-serif; */
+figcaption {
+  font-family: 'Sirin Stencil', sans-serif;
+  color:black;
+  font-size: 1.5rem;
+  position:relative;
+  top:-23rem;
+  left:2rem;
+}
+
 /* NAV BAR */
-#container {
-  position: sticky;
-  top: 0;
-  background-color: #191919;
+header {
+  margin-top: -17px;
 }
 
 nav {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin-left: 5px;
-  margin-right: 5px;
-  height: 2.7rem;
+  justify-content: space-evenly;
+  height: 2.5rem;
+  position: fixed;
+  width: 100%;
   background-color: rgb(8, 7, 7);
 }
 
 .nav-items a {
-  background: linear-gradient(to right bottom, rgb(235, 235, 235), rgb(43, 43, 38));
+  background: linear-gradient(
+    to right bottom,
+    rgb(235, 235, 235),
+    rgb(43, 43, 38)
+  );
   color: black;
   list-style: none;
   font-size: 1.14rem;
@@ -53,23 +59,55 @@ nav {
   color: white;
   border: rgb(34, 32, 32) solid 3px;
 }
-
-.skate-icon {
-  position: relative;
-  top: 0.4rem;
-  left: 7rem;
-  width: 3.2rem;
-  height: 3.2rem;
-  margin-left: 5px;
-}
 /* ///////////////////END OF NAV BAR ////////////////////////*/
 
-.clothing-main {
-  display:flex;
-  justify-content: center;
-  margin-top: 20rem;
+/*//////////////////// START OF SHOE SECTION////////////////// */
+
+.shoe-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
 
-.clothing-main img{
-  width:20rem;
+.shoe-main-pic img {
+  width: 30rem;
+  height: 15rem;
+  margin-left: 1.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.shoe-title {
+  position: relative;
+  right: 8rem;
+  top: 10rem;
+  width: 30rem;
+  height: 10rem;
+}
+
+.shoe-sales {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shoe-sales img {
+  width: 75%;
+  height: 30rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 2rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+
+.row-1 {
+  flex-basis: 33.33333%;
+}
+
+.row-2 {
+  flex-basis: 33.33333%;
+}
+
+.row-3 {
+  flex-basis: 33.33333%;
 }
