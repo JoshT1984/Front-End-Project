@@ -64,3 +64,13 @@ nav {
   margin-left: 5px;
 }
 /* ///////////////////END OF NAV BAR ////////////////////////*/
+
+.shoe-main {
+  display:flex;
+  justify-content: center;
+  margin-top: 20rem;
+}
+
+.shoe-main img{
+  width:20rem;
+}

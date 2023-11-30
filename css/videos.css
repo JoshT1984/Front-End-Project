@@ -7,10 +7,8 @@ body {
     white 5%;
   height: 100vh;
   font-family: "Lora", serif;
-  /* font-family: 'Sirin Stencil', sans-serif; */
 }
 
-/* font-family: 'Lora', serif;
   /* font-family: 'Sirin Stencil', sans-serif; */
 /* NAV BAR */
 #container {
@@ -64,3 +62,13 @@ nav {
   margin-left: 5px;
 }
 /* ///////////////////END OF NAV BAR ////////////////////////*/
+
+.video-main {
+  display:flex;
+  justify-content: center;
+  margin-top: 20rem;
+}
+
+.video-main img{
+  width:20rem;
+}

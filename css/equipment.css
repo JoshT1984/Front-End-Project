@@ -64,3 +64,13 @@ nav {
   margin-left: 5px;
 }
 /* ///////////////////END OF NAV BAR ////////////////////////*/
+
+.equipment-main {
+  display:flex;
+  justify-content: center;
+  margin-top: 20rem;
+}
+
+.equipment-main img{
+  width:20rem;
+}
