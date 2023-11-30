@@ -10,7 +10,7 @@ body {
 }
 
 figcaption {
-  font-family: 'Sirin Stencil', sans-serif;
+  font-family: "Sirin Stencil", sans-serif;
 }
 
 /* NAV BAR */
@@ -34,6 +34,7 @@ nav {
   position: fixed;
   width: 100%;
   background-color: rgb(8, 7, 7);
+  z-index: 1;
 }
 
 .nav-items a {
@@ -84,16 +85,16 @@ nav {
 .video-main-pic .video-title {
   width: 25rem;
   height: 8rem;
-  margin-left:6rem;
-  margin-top:5rem;
+  margin-left: 6rem;
+  margin-top: 5rem;
 }
 
 .video-main .video-img {
   width: 25rem;
   height: 15rem;
   margin-right: 8rem;
-  margin-top:10rem;
-  margin-bottom:5rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 .videos {

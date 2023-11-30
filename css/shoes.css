@@ -28,6 +28,7 @@ nav {
   position: fixed;
   width: 100%;
   background-color: rgb(8, 7, 7);
+  z-index: 1;
 }
 
 .nav-items a {

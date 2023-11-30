@@ -9,12 +9,12 @@ body {
 }
 
 figcaption {
-  font-family: 'Sirin Stencil', sans-serif;
-  color:black;
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
   font-size: 1.5rem;
-  position:relative;
-  top:-23rem;
-  left:2rem;
+  position: relative;
+  top: -23rem;
+  left: 2rem;
 }
 
 /* NAV BAR */
@@ -29,6 +29,7 @@ nav {
   position: fixed;
   width: 100%;
   background-color: rgb(8, 7, 7);
+  z-index: 1;
 }
 
 .nav-items a {
@@ -63,51 +64,224 @@ nav {
 
 /*//////////////////// START OF SHOE SECTION////////////////// */
 
-.shoe-main {
+.clothing-main {
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
 }
 
-.shoe-main-pic img {
+.clothing-main .clothing-img {
+  position: relative;
+  right: 80rem;
   width: 30rem;
   height: 15rem;
   margin-left: 1.5rem;
-  margin-top: 4rem;
+  margin-top: 8rem;
   margin-bottom: 4rem;
 }
 
-.shoe-title {
-  position: relative;
-  right: 8rem;
+.clothing-main-pic .clothing-title {
+  position: absolute;
+  right: 0;
+  margin-right: 7.5rem;
+  margin-top: 8rem;
   top: 10rem;
   width: 30rem;
   height: 10rem;
 }
 
-.shoe-sales {
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START OF SECTION 1>>>>>>>>>>>>>>>>>>> */
+
+.clothing-1 {
   display: flex;
   justify-content: space-between;
 }
 
-.shoe-sales img {
-  width: 75%;
-  height: 30rem;
+.clothing-1 img {
+  width: 70%;
+  height: 45rem;
   border: 10px solid rgba(0, 0, 0, 0.152);
   padding: 0;
-  margin-left: 2rem;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.clothing-1 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-1 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-1 .row-3 {
+  flex-basis: 33.33333%;
+}
+/*////////////////// SECTION 2 ///////////////////*/
+
+.clothing-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clothing-2 img {
+  width: 70%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
   zoom: 65%;
   margin-bottom: 5rem;
 }
 
-.row-1 {
+.clothing-2 .row-1 {
   flex-basis: 33.33333%;
 }
 
-.row-2 {
+.clothing-2 .row-2 {
   flex-basis: 33.33333%;
 }
 
-.row-3 {
+.clothing-2 .row-3 {
+  flex-basis: 33.33333%;
+}
+/* ////////////////// SECTION 3 ///////////////////*/
+
+.clothing-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clothing-3 img {
+  width: 70%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+.clothing-3 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-3 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-3 .row-3 {
+  flex-basis: 33.33333%;
+}
+/* ////////////////// SECTION 4 /////////////////// */
+
+.clothing-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clothing-4 img {
+  width: 70%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+
+.clothing-4 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-4 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-4 .row-3 {
+  flex-basis: 33.33333%;
+}
+/* ////////////////// SECTION 5 /////////////////// */
+
+.clothing-5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clothing-5 img {
+  width: 65%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 50%;
+  margin-bottom: 5rem;
+}
+
+.clothing-5 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-5 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-5 .row-3 {
+  flex-basis: 33.33333%;
+}
+/* ////////////////// SECTION 6 /////////////////// */
+
+.clothing-6 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clothing-6 img {
+  width: 70%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+
+.clothing-6 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-6 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-6 .row-3 {
+  flex-basis: 33.33333%;
+}
+/* /* ////////////////// SECTION 7 /////////////////* */
+
+.clothing-7 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clothing-7 img {
+  width: 70%;
+  height: 35rem;
+  border: 10px solid rgba(0, 0, 0, 0.152);
+  padding: 0;
+  margin-left: 8rem;
+  zoom: 65%;
+  margin-bottom: 5rem;
+}
+.clothing-7 .row-1 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-7 .row-2 {
+  flex-basis: 33.33333%;
+}
+
+.clothing-7 .row-3 {
   flex-basis: 33.33333%;
 }
