@@ -8,7 +8,7 @@ render();
 function render() {
   rotateOnClick();
   apiShoePricesEmbedded();
-  clothingPricesEmbedded();
+  equipmentPricesEmbedded();
 }
 
 function rotateOnClick() {
@@ -39,32 +39,6 @@ async function apiShoePricesEmbedded() {
   let $shoeFig_3_2 = $(".shoe-fig-3-2");
   let $shoeFig_3_3 = $(".shoe-fig-3-3");
 
-  let randomPriceAdder = Math.floor(Math.random() * 100) + 1;
-  try {
-    const response = await fetch("https://fakestoreapi.com/products");
-    if (!response.ok) {
-      throw new Error(`HTTP error: ${response.status}`);
-    }
-    const data = await response.json();
-    for (let i = 0; i < data.length - 11; i++) {
-      let apiData = (data[i].price + randomPriceAdder).toFixed(2);
-      shoePriceArray.push(apiData);
-    }
-  } catch (error) {
-    console.error(`could not get products: ${error}`);
-  }
-  $shoeFig_1_1.text(`$${shoePriceArray[0]}`);
-  $shoeFig_1_2.text(`$${shoePriceArray[1]}`);
-  $shoeFig_1_3.text(`$${shoePriceArray[2]}`);
-  $shoeFig_2_1.text(`$${shoePriceArray[3]}`);
-  $shoeFig_2_2.text(`$${shoePriceArray[4]}`);
-  $shoeFig_2_3.text(`$${shoePriceArray[5]}`);
-  $shoeFig_3_1.text(`$${shoePriceArray[6]}`);
-  $shoeFig_3_2.text(`$${shoePriceArray[7]}`);
-  $shoeFig_3_3.text(`$${shoePriceArray[8]}`);
-}
-
-async function clothingPricesEmbedded() {
   let $clothingFig_1_2 = $(".clothing-fig-1-1");
   let $clothingFig_1_1 = $(".clothing-fig-1-2");
   let $clothingFig_1_3 = $(".clothing-fig-1-3");
@@ -105,20 +79,34 @@ async function clothingPricesEmbedded() {
   let $clothingFig4_3_2 = $(".clothing-4-fig-3-2");
   let $clothingFig4_3_3 = $(".clothing-4-fig-3-3");
 
-  let randomPriceAdder = Math.floor(Math.random() * 12) + 1;
+  let randomPriceAdder = Math.floor(Math.random() * 15) + 1;
+  let randomPriceAdder2 = Math.floor(Math.random() * 15) + 1;
   try {
     const response = await fetch("https://fakestoreapi.com/products");
     if (!response.ok) {
       throw new Error(`HTTP error: ${response.status}`);
     }
     const data = await response.json();
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i < data.length - 11; i++) {
       let apiData = (data[i].price + randomPriceAdder).toFixed(2);
-      clothingPriceArray.push(apiData);
+      shoePriceArray.push(apiData);
+    }
+    for (let j = 0; j < data.length; j++) {
+      let apiData2 = (data[j].price + randomPriceAdder2).toFixed(2);
+      clothingPriceArray.push(apiData2);
     }
   } catch (error) {
     console.error(`could not get products: ${error}`);
   }
+  $shoeFig_1_1.text(`$${shoePriceArray[0]}`);
+  $shoeFig_1_2.text(`$${shoePriceArray[1]}`);
+  $shoeFig_1_3.text(`$${shoePriceArray[2]}`);
+  $shoeFig_2_1.text(`$${shoePriceArray[3]}`);
+  $shoeFig_2_2.text(`$${shoePriceArray[0]}`);
+  $shoeFig_2_3.text(`$${shoePriceArray[5]}`);
+  $shoeFig_3_1.text(`$${shoePriceArray[6]}`);
+  $shoeFig_3_2.text(`$${shoePriceArray[7]}`);
+  $shoeFig_3_3.text(`$${shoePriceArray[8]}`);
 
   $clothingFig_1_1.text(`$${clothingPriceArray[1]}`);
   $clothingFig_1_2.text(`$${clothingPriceArray[2]}`);
@@ -158,4 +146,32 @@ async function clothingPricesEmbedded() {
   $clothingFig4_3_3.text(`$${clothingPriceArray[3]}`);
 }
 
-console.log(clothingPriceArray);
+function equipmentPricesEmbedded() {
+  let iterator = 9;
+  let newDeckArray = [];
+  let newWheelArray = [];
+  let newBearingArray = [];
+  let newGripArray = [];
+  let newTruckArray = [];
+  let newToolArray = [];
+  let newHardwareArray = [];
+
+  for (let i = 0; i < iterator; i++) {
+    let deckPrices = Math.floor(Math.random() * 85) + 45;
+    let wheelPrices = Math.floor(Math.random() * 45) + 15;
+    let bearingPrices = Math.floor(Math.random() * 54) + 14;
+    let gripPrices = Math.floor(Math.random() * 12) + 4;
+    let truckPrices = Math.floor(Math.random() * 65) + 33;
+    let toolPrices = Math.floor(Math.random() * 25) + 12;
+    let hardwarePrices = Math.floor(Math.random() * 22) + 6;
+
+    newDeckArray.push(deckPrices);
+    newWheelArray.push(wheelPrices);
+    newBearingArray.push(bearingPrices);
+    newGripArray.push(gripPrices);
+    newTruckArray.push(truckPrices);
+    newToolArray.push(toolPrices);
+    newHardwareArray.push(hardwarePrices);
+  }
+  
+}

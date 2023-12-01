@@ -15,10 +15,10 @@ figcaption {
   text-decoration: underline;
   font-size: 1rem;
   position: relative;
-  top: -23.4rem;
-  left: 1.64rem;
-  background: linear-gradient(to right bottom, #6c6a6a, white);
-  width: 3.2rem;
+  top: -3rem;
+  left: 1.7rem;
+  background-color: white;
+  width: 3.3rem;
   align-items: center;
 }
 

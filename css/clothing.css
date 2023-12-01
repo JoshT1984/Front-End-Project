@@ -13,12 +13,13 @@ body {
   color: black;
   font-weight: 600;
   text-decoration: underline;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: relative;
-  top: -33.1rem;
-  left: 5.57rem;
+  top: -3rem;
+  left: 5.7rem;
   width: 3.2rem;
   align-items: center;
+  background-color: white;
 }
 
 .clothing-2 figcaption {
@@ -26,12 +27,13 @@ body {
   color: black;
   font-weight: 600;
   text-decoration: underline;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: relative;
-  top: -26.6rem;
-  left: 5.56rem;
+  top: -3.3rem;
+  left: 5.7rem;
   width: 3.2rem;
   align-items: center;
+  background-color: white;
 }
 
 .clothing-3 figcaption {
@@ -39,12 +41,13 @@ body {
   color: black;
   font-weight: 600;
   text-decoration: underline;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: relative;
-  top: -26.6rem;
-  left: 5.6rem;
-  width: 3rem;
+  top: -3.3rem;
+  left: 5.7rem;
+  width: 3.2rem;
   align-items: center;
+  background-color: white;
 }
 
 .clothing-4 figcaption {
@@ -54,10 +57,11 @@ body {
   text-decoration: underline;
   font-size: 1rem;
   position: relative;
-  top: -26.7rem;
-  left: 5.57rem;
-  width: 3rem;
+  top: -3.3rem;
+  left: 5.7rem;
+  width: 3.2rem;
   align-items: center;
+  background-color: white;
 }
 
 /* NAV BAR */
