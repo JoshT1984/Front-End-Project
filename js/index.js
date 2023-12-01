@@ -173,5 +173,73 @@ function equipmentPricesEmbedded() {
     newToolArray.push(toolPrices);
     newHardwareArray.push(hardwarePrices);
   }
-  
+  let f1 = $(".f1").text(`$${newDeckArray[0]}.00`);
+  let f2 = $(".f2").text(`$${newDeckArray[1]}.00`);
+  let f3 = $(".f3").text(`$${newDeckArray[2]}.00`);
+  let f4 = $(".f4").text(`$${newDeckArray[3]}.00`);
+  let f5 = $(".f5").text(`$${newDeckArray[4]}.00`);
+  let f6 = $(".f6").text(`$${newDeckArray[5]}.00`);
+  let f7 = $(".f7").text(`$${newDeckArray[6]}.00`);
+  let f8 = $(".f8").text(`$${newDeckArray[7]}.00`);
+  let f9 = $(".f9").text(`$${newDeckArray[8]}.00`);
+
+  let f21 = $(".f21").text(`$${newDeckArray[0]}.00`);
+  let f22 = $(".f22").text(`$${newDeckArray[1]}.00`);
+  let f23 = $(".f23").text(`$${newDeckArray[2]}.00`);
+  let f24 = $(".f24").text(`$${newDeckArray[3]}.00`);
+  let f25 = $(".f25").text(`$${newDeckArray[4]}.00`);
+  let f26 = $(".f26").text(`$${newDeckArray[5]}.00`);
+  let f27 = $(".f27").text(`$${newDeckArray[6]}.00`);
+  let f28 = $(".f28").text(`$${newDeckArray[7]}.00`);
+  let f29 = $(".f29").text(`$${newDeckArray[8]}.00`);
+
+  let f31 = $(".f31").text(`$${newDeckArray[0]}.00`);
+  let f32 = $(".f32").text(`$${newDeckArray[1]}.00`);
+  let f33 = $(".f33").text(`$${newDeckArray[2]}.00`);
+  let f34 = $(".f34").text(`$${newDeckArray[3]}.00`);
+  let f35 = $(".f35").text(`$${newDeckArray[4]}.00`);
+  let f36 = $(".f36").text(`$${newDeckArray[5]}.00`);
+  let f37 = $(".f37").text(`$${newDeckArray[6]}.00`);
+  let f38 = $(".f38").text(`$${newDeckArray[7]}.00`);
+  let f39 = $(".f39").text(`$${newDeckArray[8]}.00`);
+
+  let f41 = $(".f41").text(`$${newDeckArray[0]}.00`);
+  let f42 = $(".f42").text(`$${newDeckArray[1]}.00`);
+  let f43 = $(".f43").text(`$${newDeckArray[2]}.00`);
+  let f44 = $(".f44").text(`$${newDeckArray[3]}.00`);
+  let f45 = $(".f45").text(`$${newDeckArray[4]}.00`);
+  let f46 = $(".f46").text(`$${newDeckArray[5]}.00`);
+  let f47 = $(".f47").text(`$${newDeckArray[6]}.00`);
+  let f48 = $(".f48").text(`$${newDeckArray[7]}.00`);
+  let f49 = $(".f49").text(`$${newDeckArray[8]}.00`);
+
+  let f51 = $(".f51").text(`$${newDeckArray[0]}.00`);
+  let f52 = $(".f52").text(`$${newDeckArray[1]}.00`);
+  let f53 = $(".f53").text(`$${newDeckArray[2]}.00`);
+  let f54 = $(".f54").text(`$${newDeckArray[3]}.00`);
+  let f55 = $(".f55").text(`$${newDeckArray[4]}.00`);
+  let f56 = $(".f56").text(`$${newDeckArray[5]}.00`);
+  let f57 = $(".f57").text(`$${newDeckArray[6]}.00`);
+  let f58 = $(".f58").text(`$${newDeckArray[7]}.00`);
+  let f59 = $(".f59").text(`$${newDeckArray[8]}.00`);
+
+  let f61 = $(".f61").text(`$${newDeckArray[0]}.00`);
+  let f62 = $(".f62").text(`$${newDeckArray[1]}.00`);
+  let f63 = $(".f63").text(`$${newDeckArray[2]}.00`);
+  let f64 = $(".f64").text(`$${newDeckArray[3]}.00`);
+  let f65 = $(".f65").text(`$${newDeckArray[4]}.00`);
+  let f66 = $(".f66").text(`$${newDeckArray[5]}.00`);
+  let f67 = $(".f67").text(`$${newDeckArray[6]}.00`);
+  let f68 = $(".f68").text(`$${newDeckArray[7]}.00`);
+  let f69 = $(".f69").text(`$${newDeckArray[8]}.00`);
+
+  let f71 = $(".f71").text(`$${newDeckArray[0]}.00`);
+  let f72 = $(".f72").text(`$${newDeckArray[1]}.00`);
+  let f73 = $(".f73").text(`$${newDeckArray[2]}.00`);
+  let f74 = $(".f74").text(`$${newDeckArray[3]}.00`);
+  let f75 = $(".f75").text(`$${newDeckArray[4]}.00`);
+  let f76 = $(".f76").text(`$${newDeckArray[5]}.00`);
+  let f77 = $(".f77").text(`$${newDeckArray[6]}.00`);
+  let f78 = $(".f78").text(`$${newDeckArray[7]}.00`);
+  let f79 = $(".f79").text(`$${newDeckArray[8]}.00`);
 }

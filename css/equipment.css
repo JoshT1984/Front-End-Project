@@ -19,7 +19,7 @@ body {
   top: -3rem;
   left: 5.6rem;
   background-color: white;
-  width: 3.2rem;
+  width: 3.5rem;
   align-items: center;
 }
 
@@ -33,7 +33,7 @@ body {
   top: -3rem;
   left: 5.6rem;
   background-color: white;
-  width: 3.2rem;
+  width: 3.5rem;
   align-items: center;
 }
 
@@ -47,7 +47,7 @@ body {
   top: -3rem;
   left: 5.6rem;
   background-color: white;
-  width: 3rem;
+  width: 3.5rem;
   align-items: center;
 }
 
@@ -61,7 +61,7 @@ body {
   top: -3rem;
   left: 5.6rem;
   background-color: white;
-  width: 3rem;
+  width: 3.5rem;
   align-items: center;
 }
 
@@ -75,7 +75,7 @@ body {
   top: -3rem;
   left: 5.6rem;
   background-color: white;
-  width: 3rem;
+  width: 3.5rem;
   align-items: center;
 }
 
@@ -89,7 +89,7 @@ body {
   top: -3rem;
   left: 5.6rem;
   background-color: white;
-  width: 3rem;
+  width: 3.5rem;
   align-items: center;
 }
 
@@ -103,7 +103,7 @@ body {
   top: -3rem;
   left: 5.6rem;
   background-color: white;
-  width: 3rem;
+  width: 3.5rem;
   align-items: center;
 }
 
@@ -173,7 +173,7 @@ nav {
   height: 18rem;
   margin-top: 10rem;
   margin-bottom: 5rem;
-  margin-right:15rem;
+  margin-right: 15rem;
 }
 /*////////////////// SECTION 1 ///////////////////*/
 
@@ -219,7 +219,6 @@ nav {
   zoom: 65%;
   margin-bottom: 5rem;
 }
-
 .equipment-2 .row-1 {
   flex-basis: 33.33333%;
 }
@@ -369,4 +368,3 @@ nav {
 .equipment-7 .row-3 {
   flex-basis: 33.33333%;
 }
-
