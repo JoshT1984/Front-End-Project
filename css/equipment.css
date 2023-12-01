@@ -9,8 +9,102 @@ body {
   font-family: "Lora", serif;
 }
 
-figcaption {
-  font-family: 'Sirin Stencil', sans-serif;
+.equipment-1 figcaption {
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  position: relative;
+  top: -33.1rem;
+  left: 5.57rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3.2rem;
+  align-items: center;
+}
+
+.equipment-2 figcaption {
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  position: relative;
+  top: -26.6rem;
+  left: 5.56rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3.2rem;
+  align-items: center;
+}
+
+.equipment-3 figcaption {
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  position: relative;
+  top: -26.6rem;
+  left: 5.6rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3rem;
+  align-items: center;
+}
+
+.equipment-4 figcaption {
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1rem;
+  position: relative;
+  top: -26.7rem;
+  left: 5.57rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3rem;
+  align-items: center;
+}
+
+.equipment-5 figcaption {
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1rem;
+  position: relative;
+  top: -26.7rem;
+  left: 5.57rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3rem;
+  align-items: center;
+}
+
+.equipment-6 figcaption {
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1rem;
+  position: relative;
+  top: -26.7rem;
+  left: 5.57rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3rem;
+  align-items: center;
+}
+
+.equipment-7 figcaption {
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1rem;
+  position: relative;
+  top: -26.7rem;
+  left: 5.57rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3rem;
+  align-items: center;
 }
 
 /* NAV BAR */
@@ -59,16 +153,6 @@ nav {
   color: white;
   border: rgb(34, 32, 32) solid 3px;
 }
-
-.skate-icon {
-  /* margin-left : 3rem; */
-  position: relative;
-  top: 0.4rem;
-  left: 7rem;
-  width: 3.2rem;
-  height: 3.2rem;
-  margin-left: 5px;
-}
 /* ///////////////////END OF NAV BAR ////////////////////////*/
 
 .equipment-main {
@@ -80,16 +164,16 @@ nav {
 .equipment-main-pic .equipment-title {
   width: 25rem;
   height: 8rem;
-  margin-left: 6rem;
-  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-top: 9rem;
 }
 
 .equipment-main .equipment-img {
   width: 28rem;
   height: 18rem;
-  margin-right: 7rem;
   margin-top: 10rem;
   margin-bottom: 5rem;
+  margin-right:15rem;
 }
 /*////////////////// SECTION 1 ///////////////////*/
 

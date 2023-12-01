@@ -43,7 +43,6 @@ nav {
   border: 3px solid rgb(73, 72, 72);
   height: 1.5rem;
   text-decoration: none;
-  position: relative;
 }
 
 .nav-items a:hover {
@@ -64,11 +63,27 @@ nav {
   width: 2.6rem;
   height: 2.6rem;
   margin-left: 5px;
+}
+
+.skate-icon:hover {
+  /* margin-left : 3rem; */
+  margin-top:2px;
   /* pointer-events: none; */
 }
 
-.search-box {
-  margin-right: 20px;
+span img {
+  margin-right: 4rem;
+  width: 2.5rem;
+  height: 2rem;
+  border: 0.1px solid black;
+  border-radius: 3%;
+}
+
+span img:hover {
+  transition: ease-in-out 30ms;
+  border: 1px solid white;
+  margin-top: 2px;
+  border-radius: 3%;
 }
 /* ///////////////////END OF NAV BAR ////////////////////////*/
 

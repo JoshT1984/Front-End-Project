@@ -8,13 +8,60 @@ body {
   font-family: "Lora", serif;
 }
 
-figcaption {
+.clothing-1 figcaption {
   font-family: "Sirin Stencil", sans-serif;
   color: black;
-  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1.2rem;
   position: relative;
-  top: -23rem;
-  left: 2rem;
+  top: -33.1rem;
+  left: 5.57rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3.2rem;
+  align-items: center;
+}
+
+.clothing-2 figcaption {
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  position: relative;
+  top: -26.6rem;
+  left: 5.56rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3.2rem;
+  align-items: center;
+}
+
+.clothing-3 figcaption {
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  position: relative;
+  top: -26.6rem;
+  left: 5.6rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3rem;
+  align-items: center;
+}
+
+.clothing-4 figcaption {
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1rem;
+  position: relative;
+  top: -26.7rem;
+  left: 5.57rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3rem;
+  align-items: center;
 }
 
 /* NAV BAR */

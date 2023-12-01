@@ -9,12 +9,17 @@ body {
 }
 
 figcaption {
-  font-family: 'Sirin Stencil', sans-serif;
-  color:black;
-  font-size: 1.5rem;
-  position:relative;
-  top:-23rem;
-  left:2rem;
+  font-family: "Sirin Stencil", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1rem;
+  position: relative;
+  top: -23rem;
+  left: 2rem;
+  background: linear-gradient(to right bottom, #6c6a6a, white);
+  width: 3.2rem;
+  align-items: center;
 }
 
 header {
@@ -59,16 +64,6 @@ nav {
   color: white;
   border: rgb(34, 32, 32) solid 3px;
 }
-
-.skate-icon {
-  /* margin-left : 3rem; */
-  position: relative;
-  top: 0.4rem;
-  left: 7rem;
-  width: 3.2rem;
-  height: 3.2rem;
-  margin-left: 5px;
-}
 /* ///////////////////END OF NAV BAR ////////////////////////*/
 
 /*//////////////////// START OF SHOE SECTION////////////////// */
@@ -82,14 +77,14 @@ nav {
 .shoe-main-pic img {
   width: 30rem;
   height: 15rem;
-  margin-left: 1.5rem;
-  margin-top: 4rem;
+  margin-left: 11rem;
+  margin-top: 6rem;
   margin-bottom: 4rem;
 }
 
 .shoe-title {
   position: relative;
-  right: 8rem;
+  right: 10rem;
   top: 10rem;
   width: 30rem;
   height: 10rem;
