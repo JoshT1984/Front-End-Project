@@ -67,7 +67,7 @@ nav {
 
 .skate-icon:hover {
   /* margin-left : 3rem; */
-  margin-top:2px;
+  margin-top: 2px;
   /* pointer-events: none; */
 }
 
@@ -115,4 +115,58 @@ span img:hover {
 
 .row-3 {
   flex-basis: 33.33333%;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<FOOTER>>>>>>>>>>>>>>>>>>>>> */
+
+footer {
+  font-family: "Sirin Stencil", sans-serif;
+  display: flex;
+  height: 10rem;
+  background: linear-gradient(to bottom right, black 15%, gray);
+  justify-content: start;
+  align-items: end;
+}
+
+footer div {
+  font-size: 2rem;
+  color: white;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.icons {
+  position: absolute;
+  right: 48rem;
+}
+
+.icons img {
+  margin-left: 5rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border: 2px solid black;
+  transition: ease-in 200ms;
+}
+
+.icons img:hover {
+  background-color: rgb(129, 129, 129);
+}
+
+.top {
+  position: absolute;
+  right: 0;
+  margin-right: 5rem;
+  margin-bottom: 1rem;
+}
+
+.top img {
+  width: 2.5rem;
+  transition: ease-in 200ms;
+}
+
+.top img:hover {
+  background-color: black;
+  margin-bottom: .5rem;
+  
 }

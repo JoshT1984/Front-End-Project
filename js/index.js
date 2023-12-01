@@ -3,12 +3,17 @@ let rotateAngle = 0;
 let shoePriceArray = [];
 let clothingPriceArray = [];
 let equipmentPriceArray = [];
+let sound = document.createElement("audio");
+
+let isPlaying = false;
+
 render();
 
 function render() {
   rotateOnClick();
   apiShoePricesEmbedded();
   equipmentPricesEmbedded();
+  playMusic();
 }
 
 function rotateOnClick() {
@@ -26,6 +31,15 @@ function aJaxCall() {
       aJaxCall();
     }, 200);
   }
+}
+
+function playMusic() {
+  window.addEventListener("click", function () {
+    if (isPlaying === false) {
+      playAudio();
+    }
+    isPlaying = true;
+  });
 }
 
 async function apiShoePricesEmbedded() {
@@ -242,4 +256,11 @@ function equipmentPricesEmbedded() {
   let f77 = $(".f77").text(`$${newDeckArray[6]}.00`);
   let f78 = $(".f78").text(`$${newDeckArray[7]}.00`);
   let f79 = $(".f79").text(`$${newDeckArray[8]}.00`);
+}
+
+function playAudio() {
+  sound.loop = true;
+  sound.volume = 0.1;
+  sound.src = "../audio/evansBlue.mp3";
+  sound.play();
 }
